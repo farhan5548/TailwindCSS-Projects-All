@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design & Development</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <!-- Part 1 Mian div -->
+    <div class="bg-yellow-200 h-[40rem]">
+        <!-- up div -->
+        <div class="text-center mx-auto">
+            <button class="bg-gray-300 text-purple-800 font-medium rounded-full px-5 py-2 mt-8">News & Article</button>
+            <h1 class="font-bold text-3xl mt-3">Read our latest insights</h1>
+        </div>
+        <!-- main div for images -->
+        <div class="flex mt-10 justify-around">
+
+            <!-- 1st img div -->
+            <div class="relative w-[30%]">
+                <img src="divpic.jpg" alt="img" class="rounded-xl">
+                <img src="d20.jpg" alt="date" class="absolute top-0 right-0 w-[17%] rounded-[8px]">
+
+                <div class="bg-white w-[85%] rounded-2xl ml-7 absolute top-[160px]">
+                    <div class="flex gap-5 items-center ml-5">
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="person.jpg" alt="admin" class="h-4 w-4 gap-3">
+                            <p>By Admin</p>
+                        </div>
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="label.jpg" alt="solution" class="h-4 w-4">
+                            <p>Technology</p>
+                        </div>
+                    </div>
+                    <h2 class="font-bold text-2xl ml-5 mt-6">Tacking the Changes of Retail Industry</h2>
+                    <div class="flex items-center gap-2 ml-5 mt-5 mb-5">
+                        <p>Read More</p>
+                        <img src="gtn.jpg" alt="read more" class="h-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2nd img div -->
+            <div class="relative w-[30%]">
+                <img src="divpic.jpg" alt="img" class="rounded-xl">
+                <img src="d28.jpg" alt="date" class="absolute top-0 right-0 w-[17%] rounded-[8px]">
+
+                <div class="bg-white w-[85%] rounded-2xl ml-7 absolute top-[160px]">
+                    <div class="flex gap-5 items-center ml-5">
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="person.jpg" alt="admin" class="h-4 w-4 gap-3">
+                            <p>By Admin</p>
+                        </div>
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="label.jpg" alt="solution" class="h-4 w-4">
+                            <p>Technology</p>
+                        </div>
+                    </div>
+                    <h2 class="font-bold text-2xl ml-5 mt-6 px-2">Keep Your Business Safe & Ensure High Quality.</h2>
+                    <div class="flex items-center gap-2 ml-5 mt-5 mb-5">
+                        <p>Read More</p>
+                        <img src="gtn.jpg" alt="read more" class="h-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd img div -->
+            <div class="relative w-[30%]">
+                <img src="divpic.jpg" alt="img" class="rounded-xl">
+                <img src="d28.jpg" alt="date" class="absolute top-0 right-0 w-[17%] rounded-[8px]">
+
+                <div class="bg-white w-[85%] rounded-2xl ml-7 absolute top-[160px]">
+                    <div class="flex gap-5 items-center ml-5">
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="person.jpg" alt="admin" class="h-4 w-4 gap-3">
+                            <p>By Admin</p>
+                        </div>
+                        <div class="flex gap-3 items-center mt-5">
+                            <img src="label.jpg" alt="solution" class="h-4 w-4">
+                            <p>Technology</p>
+                        </div>
+                    </div>
+                    <h2 class="font-bold text-2xl ml-5 mt-6">Which Yoga Hybrid Is Right For You ?</h2>
+                    <div class="flex items-center gap-2 ml-5 mt-5 mb-5">
+                        <p>Read More</p>
+                        <img src="gtn.jpg" alt="read more" class="h-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Now 2nd main div code here -->
+
+    <div class="bg-cyan-300 h-[77rem]">
+
+        <div class="text-center ml-[33%] mr-[33%]">
+            <div class="relative flex items-center justify-center">
+                <p class="rounded-full bg-cyan-900 text-white px-10 py-2 font-bold mt-12">View All</p>
+                <button class="absolute ml-[104px] mt-12"><img src="goto.png" alt="view all" class="h-10 w-10"></button>
+            </div>
+
+
+            <h2 class="text-3xl font-bold mt-16">Frequently Asked Question</h2>
+            <p class="mt-4 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.Reiciendis iure! Nulla
+                labore quas illum.</p>
+        </div>
+
+        <div class="bg-slate-100 rounded-lg border-2 ml-40 mr-40 mt-14">
+            <div class="flex">
+                <h1 class="text-3xl font-bold ml-8 mr-9 mt-6">01</h1>
+                <h2 class="font-bold mt-6 w-[48rem]">Lorem ipsum dolor, sit amet consectetur adipisicing elit ?</h2>
+                <img src="minus.jpg" alt="less" class="mt-6 h-10 w-10">
+            </div>
+            <p class="ml-[11%] mr-[15%] mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
+                aspernatur provident quas aliquam quam consequuntur possimus sunt, magni non, iusto quo repellendus
+                doloremque excepturi laudantium!</p>
+        </div>
+
+        <div class="bg-slate-100 border-2 rounded-lg ml-40 mr-40 mt-6">
+            <div class="flex items-center">
+                <h1 class="text-3xl font-bold ml-8 mr-9">02</h1>
+                <h2 class="font-bold w-[48rem]">Lorem ipsum dolor, sit amet consectetur adipisicing elit ?</h2>
+                <img src="plus.jpg" alt="more" class="mt-5 mb-5 h-10 w-10 ">
+            </div>
+        </div>
+
+        <div class="relative flex items-center justify-center mt-14 mb-16">
+            <p class="rounded-full bg-cyan-900 px-10 py-2 text-white font-bold text-left">Load More</p>
+            <button class="absolute ml-[120px]"><img src="goto.png" alt="load" class="h-10 w-10"></button>
+        </div>
+
+
+        <!-- Now 3rd main div code here -->
+        <div class="bg-cyan-950 h-[30rem] ">
+            <div class="bg-gray-700 h-[8rem] rounded-b-[40px] flex justify-center items-center gap-6 relative">
+                <label class="text-white">Newsletter</label>
+                <button class="absolute ml-[320px]"><img src="tgramlogo.png" alt="search" class="h-8 w-8"></button>
+                <input type="search" name="srch" id="srch" class="rounded-full py-2 px-10">
+            </div>
+
+            <!-- last summary div -->
+            <div class="flex mt-10 mb-[52px] text-white justify-around">
+
+                <div class="flex flex-col w-[20%] ml-14 ">
+                    <img src="banteclogo.png" alt="company logo" class="h-16 w-36">
+                    <p class="mt-2 mb-5">Your trusted partner in pioneering IT solutions and service.</p>
+                    <div class="flex items-center gap-3">
+                        <img src="dialer.png" alt="contact" class="h-10 w-10">
+                        <div class="flex flex-col text-sm">
+                            <p>Make a Call</p>
+                            <p>(307)555-0133</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[20%] ml-14 px-14">
+                    <h2 class="font-bold text-xl mb-6">Quick Link</h2>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4"> Service</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">Contact Us</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">Testimonial</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">About Us</li>
+                    </ul>
+                </div>
+
+                <div class="w-[20%] ml-14">
+                    <h2 class="font-bold text-xl mb-6">Our Services</h2>
+                    <ul class="space-y-2">
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">Web Development</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">IT Consultancy</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">UI/UX Desin</li>
+                        <li class="flex items-center gap-1"><img src="lst arw.png" alt="list" class="h-4 w-4">Cybersecurity</li>
+                    </ul>
+                </div>
+
+                <div class="w-[20%] mr-14">
+                    <h2 class="font-bold text-xl mb-6">Follow Us</h2>
+                    <p class="mb-5">The latest news, articles, sent to your inbox weekly.</p>
+                    <div class="flex gap-3">
+                        <img src="fblogo.png" alt="facebook" class="h-10 w-10">
+                        <img src="x logo white 2.png" alt="twitter" class="h-10 w-10">
+                        <img src="linkdinlogo.png" alt="linkdin" class="h-10 w-10">
+                        <img src="pinterestlogo.png" alt="pinterest" class="h-10 w-10">
+                    </div>
+                </div>
+            </div>
+
+            <div class=" bg-gray-700 text-white rounded-t-lg ml-16 mr-16 h-[5rem] flex items-center">
+                <div class="w-[50%] ml-10">
+                    <p>Copyright &copy; 2024 - All Rights Reserved By Sheraian </p>
+                </div>
+                <div class="flex items-center justify-end w-[50%] gap-8 mr-10">
+                    <p>Privacy Policy</p>
+                    <p>Contact Us</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

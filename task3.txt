@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design & Development</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-purple-600">
+    <div class="text-center">
+        <button class="rounded-full px-6 text-purple-700 bg-white mt-8">Our Pricing</button>
+        <h1 class="text-white text-3xl mt-3 font-bold">Our popular pricing package</h1>
+    </div>
+    <div class="flex gap-10 ml-10 mr-10 mt-3">
+        <!-- 1st table div -->
+        <div class="bg-white rounded-tl-[75px] rounded-br-[75px] mt-10">
+            <h2 class="mt-12 ml-10 mr-10 font-bold">Starter Plan</h2>
+            <p class="ml-10 mt-3 mr-10">Ideal for small business an startups looking to establish an online presence.</p>
+            <ul class="ml-10 mt-5 mr-10">
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Basic Web Development</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">E-Commerce Store Setup</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Upto 5 Pages</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">SEO-Ready Templates</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Basic Maintenance</li>
+            </ul>
+            <h2 class="mt-5 mb-10 ml-10 mr-10 font-bold text-xl">$699.00<sub class="text-[8px]">/MONTH</sub></h2>
+        </div>
+
+        <!-- 2nd table div -->
+
+        <div class="bg-purple-500 text-white rounded-tl-[75px] rounded-br-[75px] mt-10">
+            <h2 class="mt-12 ml-10 mr-10  font-bold">Starter Plan</h2>
+            <p class="ml-10 mt-3 mr-10  ">Ideal for small business an startups looking to establish an online presence.</p>
+            <ul class="ml-10 mt-5 mr-10 ">
+                <li class="flex items-center gap-3"><img src="i2.jpg" alt="icon" class="h-4 w-4">Basic Web Development</li>
+                <li class="flex items-center gap-3"><img src="i2.jpg" alt="icon" class="h-4 w-4">E-Commerce Store Setup</li>
+                <li class="flex items-center gap-3"><img src="i2.jpg" alt="icon" class="h-4 w-4">Upto 5 Pages</li>
+                <li class="flex items-center gap-3"><img src="i2.jpg" alt="icon" class="h-4 w-4">SEO-Ready Templates</li>
+                <li class="flex items-center gap-3"><img src="i2.jpg" alt="icon" class="h-4 w-4">Basic Maintenance</li>
+           </ul>
+            <h2 class="mt-5 mb-10 ml-10 mr-10  font-bold text-xl">$699.00<sub class="text-[8px]">/MONTH</sub></h2>
+        </div>
+
+
+        <!-- 3rd table div -->
+        <div class="bg-white rounded-tl-[75px] rounded-br-[75px] mt-10">
+            <h2 class="mt-12 ml-10 mr-10  font-bold">Starter Plan</h2>
+            <p class="ml-10 mt-3 mr-10 ">Ideal for small business an startups looking to establish an online presence.</p>
+            <ul class="ml-10 mt-5 mr-10  ">
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Basic Web Development</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">E-Commerce Store Setup</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Upto 5 Pages</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">SEO-Ready Templates</li>
+                <li class="flex items-center gap-3"><img src="i1.png" alt="icon" class="h-4 w-4">Basic Maintenance</li>
+            </ul>
+            <h2 class="mt-5 mb-10 ml-10 mr-10  font-bold text-xl">$699.00<sub class="text-[8px]">/MONTH</sub></h2>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex justify-around bg-slate-50 items-center ">
+        <img class="w-[88px]" src="nike logo.jpg" alt="logo">
+        <ul class="flex gap-10">
+            <li>Menu</li>
+            <li>Location</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <button class="border-4 border-red-700 bg-red-600 text-white px-6">Login</button>
+    </div>
+    <div class="flex justify-around mt-10">
+        <div class="ml-20">
+            <div>
+                <h1 class="text-6xl mb-8 font-serif w-[25rem]">YOUR FEET DESERVE THE BEST</h1>
+                <P class="text-1xl w-[20rem] ">YOUR FEET DESERVE THE BEST AND WE'RE HERE TO HELP YOU WITH OUR SHOES.
+                    YOUR FEET
+                    DESERVE THE BEST AND WE'RE HERE TO HELP YOU WITH OUR SHOES.</P>
+            </div>
+            <div class="mt-8">
+                <button class="border-4 border-red-700 bg-red-600 text-white px-6 ">Shop Now</button>
+                <button class=" ml-10 border-4 bg-slate-50 border-slate-100 px-6">Category</button>
+            </div>
+            <p class="mt-8">Also Available On</p>
+            <div class=" mt-2 w-8  flex gap-5">
+                <img class="w-full h-full" src="flip logo.jpg" alt="Flipcart Logo">
+                <img class="w-full h-full" src="amazaon logo.jpg" alt="Amazon Logo">
+            </div>
+        </div>
+        <div>
+            <img src="bgshoes.png" alt="Shoes">
+        </div>
+    </div>
+</body>
+
+</html>

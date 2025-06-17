@@ -1,0 +1,2 @@
+Relative => use as Parent (Background)
+Absolute => use as child (as Front)
