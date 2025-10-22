@@ -102,5 +102,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farhan5548/TailwindCSS-Projects-All.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/farhan5548/TailwindCSS-Projects-All/issues"
+  },
+  "homepage": "https://github.com/farhan5548/TailwindCSS-Projects-All#readme"
 }
