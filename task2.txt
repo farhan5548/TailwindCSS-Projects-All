@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design & Development</title>
 
-    <link rel="stylesheet" href="./output.css">
+    <link href="./output.css" rel="stylesheet">
+
 </head>
 
 <body class="h-screen bg-[url('/src/sky.webp')] bg-cover bg-center text-white">
@@ -22,7 +23,7 @@
         </ul>
         <div class=" border-2 border-orange-600 rounded-md pl-2  ">
             <input class="placeholder-white" type="text" placeholder="type to search">
-            <button  class="bg-orange-600 px-4 py-1 text-white">Search</button>
+            <button class="bg-orange-600 px-4 py-1 text-white">Search</button>
         </div>
     </div>
     <!-- middle section -->
@@ -53,10 +54,10 @@
 
             <div class="flex justify-center space-x-4 mt-4">
                 <a href="#"><img class="w-36" src="fb logo black.jpg" alt="Facebook"></a>
-                <a href="#"><img class="w-36"src="insta logo black.jpg" alt="Instagram"></a>
-                <a href="#"><img class="w-36"src="x logo black.jpg" alt="Twitter"></a>
-                <a href="#"><img class="w-36"src="google logo black.jpg" alt="Google"></a>
-                <a href="#"><img class="w-36"src="skype logo black.jpg" alt="Skype"></a>
+                <a href="#"><img class="w-36" src="insta logo black.jpg" alt="Instagram"></a>
+                <a href="#"><img class="w-36" src="x logo black.jpg" alt="Twitter"></a>
+                <a href="#"><img class="w-36" src="google logo black.jpg" alt="Google"></a>
+                <a href="#"><img class="w-36" src="skype logo black.jpg" alt="Skype"></a>
             </div>
         </form>
     </div>
